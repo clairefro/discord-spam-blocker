@@ -33,6 +33,10 @@ Example of notification logged to mod channel:
 
 <img src="https://user-images.githubusercontent.com/9841162/150052619-6bb185f6-5f73-40f8-ad41-0d8b1a594cec.png" height="400px" />
 
+Example DM sent to user who sent offending link:
+
+<img src="https://user-images.githubusercontent.com/9841162/150052885-063d62d1-3bc7-4f0a-b07e-d5fb4866ebeb.png" height="400px" />
+
 ## Setting up
 
 ### Create Discord app/bot
