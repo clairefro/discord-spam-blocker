@@ -29,6 +29,10 @@ For example, while `https://discord.com` is safe, the following domains that dif
 
 If a message contains a link that looks suspicious by this standard, the message is automatically deleted and the user is informed in a direct message. Optional logging of these attacks can be sent to a specified Discord channel.
 
+Example of notification logged to mod channel:
+
+<img src="https://user-images.githubusercontent.com/9841162/150052619-6bb185f6-5f73-40f8-ad41-0d8b1a594cec.png" height="400px" />
+
 ## Setting up
 
 ### Create Discord app/bot

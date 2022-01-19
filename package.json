@@ -7,7 +7,7 @@
     "dev": "nodemon",
     "start": "node index.js",
     "test": "echo \"Error: lol no tests\" && exit 1",
-    "format": "prettier --write"
+    "format": "prettier --write ."
   },
   "author": "Claire Froelich",
   "license": "MIT",
