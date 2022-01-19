@@ -50,7 +50,7 @@ async function spamCheck(client, message) {
         );
         if (!modChannel) {
           logger.error(
-            `Invalid channel id provided for MOD_CHANNEL_ID: ${config.modChannelId}`
+            `Invalid channel id provided for MOD_CHANNEL_ID: "${config.modChannelId}". Omitting mod channel notification.`
           );
           return;
         }
