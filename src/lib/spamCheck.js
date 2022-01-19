@@ -37,7 +37,7 @@ async function spamCheck(client, message) {
         .map((l) => `- ${l}`)
         .join(
           '\n'
-        )} \nLinks that are slightly similar to 'discord' are often malicious. If you didn't intentionally send these links, there is a change your account was hacked and is sending out malicious messages. If that is the case, **please change your password and enable two-factor authentication on your Discord account**.\n\nContact a server admin if you have any questions or you believe this was an error!`;
+        )}\n\nLinks that are slightly similar to 'discord' are often malicious. If you didn't intentionally send these links, there is a change your account was hacked and is sending out malicious messages. If that is the case, **please change your password and enable two-factor authentication on your Discord account**.\n\nContact a server admin if you have any questions or you believe this was an error!`;
 
       message.author.send(dmMsg).catch(logger.error);
       message.delete().catch(logger.error);
