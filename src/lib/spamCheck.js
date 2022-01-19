@@ -48,6 +48,12 @@ async function spamCheck(client, message) {
         const modChannel = client.channels.cache.find(
           (channel) => channel.id === config.modChannelId
         );
+        if (!modChannel) {
+          logger.error(
+            `Invalid channel id provided for MOD_CHANNEL_ID: ${config.modChannelId}`
+          );
+          return;
+        }
         const lines = `--------------\n`;
         modChannel.send(
           lines +
