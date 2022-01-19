@@ -35,7 +35,7 @@ Example of notification logged to mod channel:
 
 Example DM sent to user who sent offending link:
 
-<img src="https://user-images.githubusercontent.com/9841162/150054952-fcd010a2-5710-4e25-91c1-c1d8076b16ef.png" height="300px" />
+<img src="https://user-images.githubusercontent.com/9841162/150055219-f96ae939-9cca-44cd-8e53-1d91974db64a.png" height="300px" />
 
 ## Setting up
 
