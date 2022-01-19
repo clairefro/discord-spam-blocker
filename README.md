@@ -45,7 +45,7 @@ Example DM sent to user who sent offending link:
 
 2. Enable Intents: Server Members, Server Messages
 
-<img src="https://user-images.githubusercontent.com/9841162/150038516-4ba92006-aedd-4118-95d6-959f7b7be450.png" height="300px" />
+<img src="https://user-images.githubusercontent.com/9841162/150038516-4ba92006-aedd-4118-95d6-959f7b7be450.png" height="400px" />
 
 3. Create bot on app
 
