@@ -1,0 +1,24 @@
+{
+  "name": "discord-spam-blocker",
+  "version": "1.0.0",
+  "description": "A spam blocker bot for discord",
+  "main": "index.js",
+  "scripts": {
+    "dev": "nodemon",
+    "start": "node index.js",
+    "test": "echo \"Error: lol no tests\" && exit 1",
+    "format": "prettier --write"
+  },
+  "author": "Claire Froelich",
+  "license": "MIT",
+  "dependencies": {
+    "discord.js": "^13.6.0",
+    "dotenv": "^14.2.0",
+    "fastest-levenshtein": "^1.0.12",
+    "tracer": "^1.1.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15",
+    "prettier": "^2.5.1"
+  }
+}
