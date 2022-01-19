@@ -20,5 +20,6 @@ if (missing.length) {
 module.exports = {
   discordAppClientId: process.env.DISCORD_APP_CLIENT_ID,
   discordBotToken: process.env.DISCORD_BOT_TOKEN,
-  modChannelId: process.env.MOD_CHANNEL_ID
+  modChannelId: process.env.MOD_CHANNEL_ID,
+  whitelist: ['discordjs'] // these typosquat-y looking domains are legit
 };
