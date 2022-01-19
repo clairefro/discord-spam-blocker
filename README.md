@@ -1,6 +1,6 @@
 A BYOD (Bring your own deployment) Discord bot for blocking [typosquat](https://en.wikipedia.org/wiki/Typosquatting) attacks common with Nitro scams and informing users their account may have been compromised.
 
-<img src="https://user-images.githubusercontent.com/9841162/150050893-4e083f60-39a3-4b19-a10c-77f6ab3ad97f.png" height="700px" />
+<img src="https://user-images.githubusercontent.com/9841162/150050893-4e083f60-39a3-4b19-a10c-77f6ab3ad97f.png" height="400px" />
 
 **DOES**
 
@@ -43,12 +43,11 @@ Example DM sent to user who sent offending link:
 
 1. Create a new app in [Discord Developer Portal](https://discord.com/developers/applications)
 
-1. Enable Intents: Server Members, Server Messages
+2. Enable Intents: Server Members, Server Messages
 
 ![image](https://user-images.githubusercontent.com/9841162/150038516-4ba92006-aedd-4118-95d6-959f7b7be450.png)
 
-1. Save App Client ID to `DISCORD_APP_CLIENT_ID` in `.env`
-1. Create bot on app
+3. Create bot on app
 
 ### Deploy bot
 
@@ -57,7 +56,11 @@ Example DM sent to user who sent offending link:
 
 `DISCORD_APP_CLIENT_ID`
 
+The Discord App Client ID from the App you made in your Discord Developer Portal
+
 `DISCORD_BOT_TOKEN`
+
+The Discord Bot Token for the bot you created on your app
 
 `MOD_CHANNEL_ID` (OPTIONAL but recommended)
 
